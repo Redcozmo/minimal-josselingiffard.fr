@@ -1,0 +1,28 @@
+baseURL = "https://josselingiffard.fr/"
+title = "Josselin GIFFARD-CARLET"
+
+languageCode = "fr"
+defaultContentLanguage = "fr"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    note = "/:year/:month/:day/:slug/"
+
+[author]
+    name = "Josselin GIFFARD-CARLET"
+    email = "email"
+
+[params]
+    footer = """Ce site ne vous traque pas. Généré avec [Hugo](https://gohugo.io/). Hébergé chez [Netlify](https://www.netlify.com/). Sources chez [GitHub](https://github.com/Redcozmo). Conception basée sur [nicolasfriedli.ch](https://nicolasfriedli.ch/) avec modifications. Contenus sous licence Creative Commons [BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). """
+
+copyright = "Creative Commons BY-SA"
+enableGitInfo = false # pass to true when git init
+removePathAccents = true
+cleanDestinationDir = true
+disableFastRender = true
+
+[build]
+    writeStats = false
+
+[markup.goldmark.parser]
+    autoHeadingIDType = "github-ascii"

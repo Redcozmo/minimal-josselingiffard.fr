@@ -1,0 +1,11 @@
+{{ $screen := resources.Get "css/screen.css" }}
+{{ $print := resources.Get "css/print.css" }}
+
+<link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
+<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
+
+
+<!-- 
+<meta name="theme-color" content="#28303d">
+<meta name="color-scheme" content="dark light">
+ --> 
