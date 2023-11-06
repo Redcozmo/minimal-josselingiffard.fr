@@ -3,6 +3,8 @@ title: Premier article
 author: 'Josselin GIFFARD-CARLET'
 date: 2023-10-25T15:29:05+01:00
 lastMod: 2023-10-25T15:29:05+01:00
+description : ""
+slug: premier-article
 draft: true
 categories: ['code']
 tags: ['green']

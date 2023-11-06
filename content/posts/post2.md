@@ -3,6 +3,7 @@ title: Second article
 author: 'Josselin GIFFARD-CARLET'
 date: '2023-11-02'
 lastMod: '2023-11-02T15:49:26+01:00'
+description : ""
 slug: second-article
 categories: ['code']
 tags: ['red', 'blue', 'green']
