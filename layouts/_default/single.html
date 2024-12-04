@@ -1,7 +1,14 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    <div class="byline">
-        <time datetime="{{.Date.Format " 2006-01-02"}}" class="entry-date dateline">{{ .Date | time.Format ":date_long" }}</time> 
+    <div class="">
+        <time datetime="{{.Date.Format " 2006-01-02"}}" class="">{{ .Date | time.Format ":date_long" }}</time>
+        <i>- Catégorie : </i>
+        {{ with .GetTerms "categories" }}
+            {{ range $i, $_ := . }}{{ if $i }}, {{ end }}
+                <i><a class="category-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a></i>
+            {{ end }}
+        {{ end }}
     </div>
+    
     {{ .Content }}
 {{ end }}

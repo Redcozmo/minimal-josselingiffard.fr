@@ -12,6 +12,10 @@ defaultContentLanguage = "fr"
     name = "Josselin GIFFARD-CARLET"
     email = "email"
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [params]
     footer = """Ce site ne vous traque pas. Généré avec [Hugo](https://gohugo.io/). Hébergé chez [Netlify](https://www.netlify.com/). Sources chez [GitHub](https://github.com/Redcozmo). Conception basée sur [nicolasfriedli.ch](https://nicolasfriedli.ch/) avec modifications. Contenus sous licence Creative Commons [BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). """
 
